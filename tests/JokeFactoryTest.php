@@ -4,10 +4,10 @@ namespace Mpociot\ChuckNorrisJokes\Tests;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\Psr7\Response;
-use Mpociot\ChuckNorrisJokes\JokeFactory;
 use PHPUnit\Framework\TestCase;
+use GuzzleHttp\Handler\MockHandler;
+use Mpociot\ChuckNorrisJokes\JokeFactory;
 
 class JokeFactoryTest extends TestCase
 {
