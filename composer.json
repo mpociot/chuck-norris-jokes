@@ -9,7 +9,9 @@
             "email": "m.pociot@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
     "autoload": {
         "psr-4": {
             "Mpociot\\ChuckNorrisJokes\\": "src/"
