@@ -2,11 +2,11 @@
 
 namespace Mpociot\ChuckNorrisJokes\Tests;
 
-use Illuminate\Support\Facades\Artisan;
-use Mpociot\ChuckNorrisJokes\ChuckNorrisJokesServiceProvider;
-use Mpociot\ChuckNorrisJokes\Console\ChuckNorrisJoke;
-use Mpociot\ChuckNorrisJokes\Facades\ChuckNorris;
 use Orchestra\Testbench\TestCase;
+use Illuminate\Support\Facades\Artisan;
+use Mpociot\ChuckNorrisJokes\Facades\ChuckNorris;
+use Mpociot\ChuckNorrisJokes\Console\ChuckNorrisJoke;
+use Mpociot\ChuckNorrisJokes\ChuckNorrisJokesServiceProvider;
 
 class LaravelTest extends TestCase
 {
